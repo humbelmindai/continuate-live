@@ -65,11 +65,11 @@ export function WhyChooseUs() {
             className="mb-12 lg:mb-0"
           >
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black mb-6">
-              Why South African Businesses Trust Us
+              Unorthodox Thinking, Proven Results
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              With over 500 satisfied clients and a 99.9% uptime guarantee, we've established 
-              ourselves as the preferred IT partner for businesses across South Africa.
+              With over 1000+ devices under management and a 99.9% uptime guarantee, we prove that
+              great IT doesn't have to break the bank. Our innovative, unorthodox approaches make enterprise-grade technology accessible to businesses of all sizes.
             </p>
           </motion.div>
 
@@ -151,8 +151,8 @@ export function WhyChooseUs() {
             <h4 className="font-semibold text-black mb-4">Trusted by Industry Leaders</h4>
             <div className="grid grid-cols-2 gap-4 text-center">
               <div>
-                <div className="text-2xl font-bold text-black">500+</div>
-                <div className="text-sm text-gray-600">Active Clients</div>
+                <div className="text-2xl font-bold text-black">1000+</div>
+                <div className="text-sm text-gray-600">Devices Managed</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-black">99.9%</div>

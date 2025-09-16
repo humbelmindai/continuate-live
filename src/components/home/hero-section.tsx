@@ -14,7 +14,7 @@ const benefits = [
 ];
 
 const stats = [
-  { value: "500+", label: "Happy Clients" },
+  { value: "1000+", label: "Devices Managed" },
   { value: "99.9%", label: "Uptime Guarantee" },
   { value: "24/7", label: "Support Available" },
   { value: "15+", label: "Years Experience" }
@@ -46,17 +46,17 @@ export function HeroSection() {
               >
                 <div className="inline-flex items-center rounded-full bg-black text-white px-4 py-2 text-sm font-medium mb-6">
                   <Shield className="w-4 h-4 mr-2" />
-                  South Africa's Leading IT Services Provider
+                  Making Enterprise IT Affordable & Accessible
                 </div>
-                
+
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-black mb-6 leading-tight">
-                  Professional IT Solutions 
-                  <span className="block text-gray-600">That Drive Business Growth</span>
+                  Affordable & Accessible IT
+                  <span className="block text-gray-600">With Unorthodox Thinking</span>
                 </h1>
-                
+
                 <p className="text-lg sm:text-xl text-gray-600 mb-8 max-w-2xl leading-relaxed">
-                  From managed services to cybersecurity, we provide comprehensive IT solutions 
-                  that keep your business secure, efficient, and ahead of the competition.
+                  We believe great IT should be affordable and accessible to everyone. Through unorthodox thinking
+                  and innovative approaches, we deliver enterprise-grade solutions that keep your business secure, efficient, and ahead of the competition.
                 </p>
 
                 {/* Benefits List */}
