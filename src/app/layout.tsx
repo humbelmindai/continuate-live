@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description: "Professional IT managed services, networking, CCTV, cybersecurity, and automation solutions for businesses across South Africa. 24/7 support and white-label partnerships available.",
   keywords: [
     "IT managed services South Africa",
-    "IT support Johannesburg", 
+    "IT support Johannesburg",
     "networking solutions",
     "CCTV installation",
     "cybersecurity services",
@@ -25,6 +25,11 @@ export const metadata: Metadata = {
     "white label IT services"
   ],
   authors: [{ name: "Continuate IT Services" }],
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
   openGraph: {
     title: "Continuate IT Services - Leading South African IT Solutions Provider",
     description: "Professional IT managed services, networking, CCTV, cybersecurity, and automation solutions for businesses across South Africa.",
@@ -65,7 +70,8 @@ export default function RootLayout({
       <head>
         <JsonLd type="Organization" />
         <JsonLd type="WebSite" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
