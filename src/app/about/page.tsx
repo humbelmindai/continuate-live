@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Users, Award, Shield, TrendingUp, Clock, MapPin } from "lucide-react";
+import { Users, Award, Shield, TrendingUp, Clock } from "lucide-react";
 import { Section } from "@/components/layout/section";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";

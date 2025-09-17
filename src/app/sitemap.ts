@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { SERVICES } from '@/lib/constants/services'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://continuate.co.za'
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://continuate.co.za'
   
   // Static pages
   const staticPages = [

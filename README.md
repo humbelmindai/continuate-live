@@ -75,6 +75,94 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) to view the website.
 
+## 🚀 Vercel Deployment
+
+This application is optimized for easy deployment on Vercel. Follow these steps to deploy:
+
+### Option 1: Deploy via Vercel CLI (Recommended)
+
+1. **Install Vercel CLI** (if not already installed):
+   ```bash
+   npm i -g vercel
+   ```
+
+2. **Login to Vercel**:
+   ```bash
+   vercel login
+   ```
+
+3. **Deploy from project directory**:
+   ```bash
+   vercel
+   ```
+
+4. **Follow the prompts**:
+   - Link to existing project or create new one
+   - Confirm project settings
+   - Deploy to production
+
+### Option 2: Deploy via Vercel Dashboard
+
+1. **Push code to GitHub**:
+   ```bash
+   git add .
+   git commit -m "Ready for deployment"
+   git push origin main
+   ```
+
+2. **Import project in Vercel**:
+   - Go to [vercel.com](https://vercel.com)
+   - Click "New Project"
+   - Import your GitHub repository
+   - Vercel will auto-detect Next.js settings
+
+3. **Configure environment variables** (if needed):
+   - Go to Project Settings → Environment Variables
+   - Add any required environment variables from `.env.example`
+
+4. **Deploy**:
+   - Click "Deploy" and wait for build to complete
+
+### Deployment Configuration
+
+The project includes optimized configuration for Vercel:
+
+- **`vercel.json`**: Optimized build settings, headers, and redirects
+- **Next.js Config**: Production optimizations and security headers
+- **Environment Variables**: Documented in `.env.example`
+
+### Post-Deployment
+
+1. **Update domain settings**:
+   - Update `robots.txt` and `sitemap.ts` with your production domain
+   - Configure custom domain in Vercel dashboard
+
+2. **Verify deployment**:
+   - Check all pages load correctly
+   - Test contact forms and functionality
+   - Verify SEO meta tags and structured data
+
+### Environment Variables
+
+Copy `.env.example` to `.env.local` and configure:
+
+```bash
+# Application Configuration
+NEXT_PUBLIC_APP_URL=https://your-domain.com
+NEXT_PUBLIC_APP_NAME="Continuate IT Services"
+
+# Add other variables as needed
+```
+
+### Performance Optimization
+
+The application is pre-configured with:
+- ✅ Image optimization (WebP/AVIF)
+- ✅ Code splitting and lazy loading
+- ✅ Security headers
+- ✅ Caching strategies
+- ✅ Core Web Vitals optimization
+
 ## 📱 Pages Overview
 
 ### Homepage (/)

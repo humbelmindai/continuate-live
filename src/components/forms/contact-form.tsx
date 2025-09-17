@@ -12,7 +12,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { toast } from "sonner";
 import { Loader2, Send } from "lucide-react";
 import { SERVICES } from "@/lib/constants/services";
-import type { ContactForm as ContactFormType } from "@/types";
+// ContactFormType is not used in this component
 
 const contactFormSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters").max(100, "Name too long"),

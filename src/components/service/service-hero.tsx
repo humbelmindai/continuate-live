@@ -21,7 +21,7 @@ export function ServiceHero({
   description, 
   benefits, 
   icon,
-  bgPattern = "default"
+  bgPattern: _ = "default"
 }: ServiceHeroProps) {
   return (
     <Section padding="xl" className="relative overflow-hidden bg-gradient-to-br from-gray-50 to-white">

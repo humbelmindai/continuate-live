@@ -104,7 +104,7 @@ export function TestimonialsSection() {
         viewport={{ once: true, margin: "-100px" }}
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12"
       >
-        {testimonials.map((testimonial, index) => (
+        {testimonials.map((testimonial) => (
           <motion.div key={testimonial.id} variants={itemVariants}>
             <Card className="h-full hover-lift bg-white border border-gray-200 hover:border-gray-300 transition-all duration-300">
               <CardContent className="p-8">

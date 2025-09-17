@@ -80,7 +80,7 @@ export function WhyChooseUs() {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            {reasons.slice(0, 3).map((reason, index) => {
+            {reasons.slice(0, 3).map((reason) => {
               const IconComponent = reason.icon;
               return (
                 <motion.div
@@ -115,7 +115,7 @@ export function WhyChooseUs() {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            {reasons.slice(3).map((reason, index) => {
+            {reasons.slice(3).map((reason) => {
               const IconComponent = reason.icon;
               return (
                 <motion.div

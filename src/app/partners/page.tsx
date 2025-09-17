@@ -18,12 +18,7 @@ export const metadata: Metadata = {
   ],
 };
 
-const benefits = [
-  "Expand Your Service Portfolio",
-  "Proven Business Model", 
-  "Comprehensive Support & Training",
-  "Competitive Partner Pricing"
-];
+// Partnership benefits are now defined in partnershipBenefits array below
 
 const partnershipBenefits = [
   {

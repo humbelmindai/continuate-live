@@ -1,10 +1,11 @@
 "use client";
 
-import { ArrowRight, Shield, Monitor, Network, CheckCircle } from "lucide-react";
+import { ArrowRight, Shield, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Section } from "@/components/layout/section";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const benefits = [
   "24/7 Expert Support",
@@ -25,10 +26,12 @@ export function HeroSection() {
     <Section padding="none" className="relative overflow-hidden">
       {/* Homepage Image Background */}
       <div className="absolute inset-0">
-        <img 
+        <Image 
           src="/homepageimage.png" 
           alt="IT Services Background"
-          className="w-full h-full object-cover"
+          fill
+          className="object-cover"
+          priority
         />
         {/* Overlay for content readability */}
         <div className="absolute inset-0 bg-white/85"></div>
@@ -107,9 +110,11 @@ export function HeroSection() {
               >
                 {/* Main Hero Image */}
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                  <img 
+                  <Image 
                     src="/homepageimage.png" 
                     alt="IT Services Professional working on server infrastructure"
+                    width={600}
+                    height={400}
                     className="w-full h-auto object-cover"
                   />
                   
